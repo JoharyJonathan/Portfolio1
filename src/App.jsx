@@ -1,13 +1,19 @@
-import NavBar from "./NavBar"
+import NavBar from './components/NavBar';
+import Header from './components/Header';
+import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
-
   return (
-    <>
-      <h1 className='text-3xl underline flex justify-center'>Test</h1>
+    <div className="flex flex-col min-h-screen">
       <NavBar />
-    </>
-  )
+      <Header />
+      <main className="flex-grow">
+        <About />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
