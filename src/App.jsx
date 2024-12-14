@@ -1,17 +1,11 @@
-import { Link } from "react-router-dom"
+import NavBar from "./NavBar"
 
 function App() {
 
   return (
     <>
-      <h1 className='text-3xl font-bold underline flex justify-center'>Test</h1>
-      <div>
-        <nav>
-          <Link to="/">Accueil</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-      </div>
+      <h1 className='text-3xl underline flex justify-center'>Test</h1>
+      <NavBar />
     </>
   )
 }
