@@ -27,25 +27,23 @@ const Resume = () => {
           {/* Experience Cards */}
           <div className="space-y-6">
             <ExperienceCard
-              date="2020 - Present"
+              date="2023"
               title="Full-Stack Developer"
-              company="Tech Solutions Inc."
-              location="San Francisco, CA"
+              company="HULSIA SARL"
+              location="Tsiadana, Antananarivo"
               tasks={[
-                "Developed and maintained responsive web applications using React and Node.js.",
-                "Optimized database queries, improving system performance by 30%.",
-                "Collaborated with cross-functional teams on software design and implementation.",
+                "Developed and maintained responsive web applications using Laravel Frameworks",
+                "Collaborated with cross-functional teams on web design and implementation.",
               ]}
             />
             <ExperienceCard
-              date="2018 - 2020"
-              title="Junior Developer"
-              company="Innovatech"
-              location="Los Angeles, CA"
+              date="2022"
+              title="Game Development"
+              company="Infinity Creative"
+              location="Analakely, Antananarivo"
               tasks={[
-                "Assisted in building mobile-first web designs using HTML, CSS, and JavaScript.",
-                "Conducted code reviews and resolved bugs to enhance application reliability.",
-                "Contributed to API development and integration using Python and Flask.",
+                "Creating 2D game with Unity Engine using C#",
+                "Assist in maintenance and service for company"
               ]}
             />
           </div>
@@ -56,18 +54,25 @@ const Resume = () => {
           <h2 className="text-2xl font-bold text-secondary mb-6">Education</h2>
           <div className="space-y-6">
             <EducationCard
-              date="2016 - 2018"
+              date="2023 - present"
               degree="Master's in Computer Science"
-              school="University of California"
-              location="Berkeley, CA"
-              description="Specialized in Software Engineering and Data Science. Graduated with honors."
+              school="ESMIA University"
+              location="Mahamasina, Antananarivo"
+              description="Focusing in Software Engineering and Data Science."
             />
             <EducationCard
-              date="2012 - 2016"
+              date="2020 - 2023"
               degree="Bachelor's in Computer Science"
-              school="Stanford University"
-              location="Palo Alto, CA"
-              description="Focused on algorithms, machine learning, and cloud computing technologies."
+              school="ESMIA University"
+              location="Mahamasina, Antananarivo"
+              description="Focused on algorithms, web development, and machine learning."
+            />
+            <EducationCard
+              date="2020"
+              degree="Baccalaureat C"
+              school=""
+              location=""
+              description=""
             />
           </div>
         </section>
@@ -79,10 +84,12 @@ const Resume = () => {
             {[
               "JavaScript (Vue, React, Node.js)",
               "Python (Flask, Django)",
-              "Database Management (PostgreSQL, MySQL)",
+              "Database Management (PostgreSQL, MySQL, SQLite)",
               "RESTful APIs",
               "Git & Version Control",
               "Agile Development",
+              "PHP (Laravel, CodeIgniter, Symfony)",
+              "Java (SpringBoot)",
             ].map((skill, index) => (
               <div
                 key={index}
