@@ -1,4 +1,5 @@
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 const Resume = () => {
   return (
@@ -94,14 +95,7 @@ const Resume = () => {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 py-6">
-        <div className="container mx-auto text-center">
-          <p className="text-sm text-gray-400">
-            © 2024 John Doe. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

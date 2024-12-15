@@ -6,6 +6,7 @@ import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import Resume from './components/Resume.jsx'
 import Projects from './components/Projects.jsx'
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>

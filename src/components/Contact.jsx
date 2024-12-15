@@ -15,7 +15,7 @@ const Contact = () => {
                   <i className="bi bi-envelope text-2xl"></i>
                 </div>
                 <h1 className="text-3xl font-bold">Get in touch</h1>
-                <p className="text-gray-600">Let's work together!</p>
+                <p className="text-gray-600">Let &apos; s work together!</p>
               </div>
 
               <div className="max-w-lg mx-auto">
@@ -80,7 +80,7 @@ const Contact = () => {
                   <div className="text-center">
                     <button
                       type="submit"
-                      className="w-full bg-primary text-white py-3 rounded-lg hover:bg-primary-dark"
+                      className="bg-green-400 p-2 rounded-lg hover:bg-green-700 hover:text-white"
                     >
                       Submit
                     </button>
