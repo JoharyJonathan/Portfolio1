@@ -77,9 +77,9 @@ const Resume = () => {
           <h2 className="text-2xl font-bold text-secondary mb-6">Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              "JavaScript (React, Node.js)",
+              "JavaScript (Vue, React, Node.js)",
               "Python (Flask, Django)",
-              "Database Management (MySQL, MongoDB)",
+              "Database Management (PostgreSQL, MySQL)",
               "RESTful APIs",
               "Git & Version Control",
               "Agile Development",

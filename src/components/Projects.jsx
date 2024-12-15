@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 const Projects = () => {
   const projectData = [
@@ -31,6 +32,7 @@ const Projects = () => {
                 ))}
             </div>
         </div>
+        <Footer />
     </>
   );
 };
