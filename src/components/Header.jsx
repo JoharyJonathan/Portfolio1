@@ -29,7 +29,7 @@ function Header() {
             </div>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-            <img src="/dj.jpg" alt="Profile" className="rounded-full shadow-lg" />
+            <img src="/johary.jpg" alt="Profile" className="rounded-full shadow-lg" />
           </div>
         </div>
       </header>
