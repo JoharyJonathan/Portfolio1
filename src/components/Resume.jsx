@@ -28,7 +28,7 @@ const Resume = () => {
           <div className="space-y-6">
             <ExperienceCard
               date="2023"
-              title="Full-Stack Developer"
+              title="Intern Full-Stack Developer"
               company="HULSIA SARL"
               location="Tsiadana, Antananarivo"
               tasks={[
